@@ -210,8 +210,9 @@ def preprocess_data(input_path, output_path):
 
 if __name__ == "__main__":
 
-    INPUT_PATH = "Dataset/telco_raw.csv"
-    OUTPUT_PATH = "Dataset/telco_preprocessed.csv"
+    INPUT_PATH = "telco_raw/telco_raw.csv"
+    OUTPUT_PATH = "preprocessing/telco_preprocessed.csv"
+
     preprocess_data(
         input_path=INPUT_PATH,
         output_path=OUTPUT_PATH
